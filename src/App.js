@@ -4,10 +4,7 @@ import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Template from './components/Template';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 // import { Link } from 'react-router-dom';
-
-
 
 const MainCom=()=>{
   return(

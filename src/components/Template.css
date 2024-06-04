@@ -1,103 +1,26 @@
-/* src/Navbar.css */
-/* .navbar {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* padding: 10px 20px; */
-    /* margin: 0; */
-  /* } */
-  
-  /* .navbar-logo {
-    height: 65px;
-    display: flex;
-    justify-content: start;
-    margin-top: 16px;
-  } */
-  /* .logo {
-    width: 165px;
-    height: 63px;
-  }
-  
-  .navbar-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    margin-top: 16px;
-  }
-  
-  .navbar-links li {
-    margin: 0 25px;
-  } */
-  
-  /* .navbar-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px; */
-    /* font-family: Open; */
-    /* fghjk */
-    /* font-weight: 400;
-    line-height: 24.51px;
-    letter-spacing: 0.06em;
-  } */
-  
-  /* .navbar-links a:hover {
-    color: rgb(239, 239, 104);
-  } */
-  
-  /* .head {
-    display: flex;
-  } */
-  /* .desc {
-    display: flex;
-    justify-content: start;
-    color: #fff;
-    /* font-family: Open Sans; */
-    /* font-size: 50px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.06em;
-    text-align: left;
-    margin-top: 150px; */
-  /* }  */
-  /* .parra {
-    color: #fff; */
-    /* font-family: Open Sans; */
-    /* font-size: 16px;
-    font-weight: 600;
-    line-height: 21.79px;
-    letter-spacing: 0.06em;
-    text-align: left;
-  }
-  .medium {
-    display: flex;
-    justify-content: end;
-    margin-top: 43px;
-  } */
   .head1 {
-    width: 1440px;
-    height: 1092px;
-    margin-top: 80px;
+    margin-top: 150px;
 
   }
 
- .aboutPage {
+ .h1tag {
     /* font-family: Open Sans; */
     display: flex;
     justify-content: center;
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.06em;
     text-align: center;
     color: #000066;
-    /* margin-top: 300px; */
+    margin: 110px 0 115px 0;
   }
   .Rectangle1 {
-    margin-top: 70px;
-    width: 90vw;
-    object-fit: cover;
+    margin-top: 100px;
+    /* width: 98.5vw; */
+    width: 100%;
     height: 500px;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,16 +29,12 @@
   }
   .parra1 {
     /* font-family: Inter; */
-    font-size: 20px;
+    font-size: 17.5px;
     font-weight: 400;
     line-height: 38px;
     text-align: center;
     color: #000066;
-    margin-top: 95px;
-    /* margin: 0; */
-    display: flex;
-    justify-content: start;
-
+    margin-top: 92px;
   }
   .our{
     margin: 0px 0 130px 0;
@@ -132,7 +51,7 @@
     gap: 25px;
     width: 100%;
   }
-  .Rectangle2 {
+  .educationImg {
     /* width: 568px;*/
     width: 50%;
     height: 420px;
@@ -144,7 +63,7 @@
     justify-content: start;
     align-items: start;
   }
-  .painting {
+  .education {
     /* font-family: Open Sans; */
     font-size: 30px;
     font-weight: 700;
@@ -191,7 +110,7 @@
     flex-direction: row;
     text-align: start;
   }
-  .laundry {
+  .serviceHeading {
     /* font-family: Open Sans; */
     font-size: 49px;
     font-weight: 700;
@@ -207,12 +126,12 @@
     flex-direction: row;
     text-align: start;
   }
-  .parra3 {
+  .parraEducational {
     /* font-family: Open Sans; */
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 35px;
-    letter-spacing: 0.06em;
+    line-height: 28px;
+    letter-spacing: 0.04em;
     text-align: left;
   }
   
@@ -240,15 +159,6 @@
     width: 50%;
     height: 420px;
     border-radius: 10px 0px 0px 0px;
-  }
-  
-  .parra4 {
-    /* font-family: Open Sans; */
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 35px;
-    letter-spacing: 0.06em;
-    text-align: left;
   }
   
   .head5 {
