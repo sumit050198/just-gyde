@@ -1,21 +1,29 @@
 import React from 'react';
 import { Outlet, Link } from "react-router-dom";    
 import './Navbar.css';
+const About=()=>{
+    return(
+       <div className="App">
+          <Navbar/>
+        </div> 
+    )
+  }
 
 const Navbar = () => {
     return (
         
-        <header className='header'>
+        // style={{ backgroundImage:`url(${'./image/Vector1.png'})`, width: "100%", height: "672px" }}
+        <header className='header'> ;
             <nav className="navbar">
                 <div className="navbar-logo">
                     <img className='logo' src="../image/logoJustGyde.png" alt="Logo" />
                 </div>
                 <ul className="navbar-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li> <Link to="/Services">Home</Link></li>
+                    <li> <Link to="/Services">About</Link></li>
                     <li> <Link to="/Services">Service</Link></li>
-                    <li><a href="#reviews">Reviews</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li> <Link to="/Services">Reviews</Link></li>
+                    <li> <Link to="/Services">Contact Us</Link></li>
                 </ul>
             </nav>
             <div className="hero">
@@ -24,8 +32,10 @@ const Navbar = () => {
                     <p className='parra'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua</p>
                 </div>
                 <div className="hero-image">
-                    <img  src="./image/img1.png" alt="Hero" />
+                <div style={{ backgroundImage:`url(${'./image/imgback.png'})`, width: "400px", height: "580px" }}>
+                    <img className='mobileimage' style={{height: "400px", width: "400px", margin: "50px"}} src="./image/img1.svg" alt="Hero" />
                 </div>
+            </div>
             </div>
             <Outlet />
         </header>
