@@ -27,6 +27,7 @@ const Navbar = () => {
                     <img  src="./image/img1.png" alt="Hero" />
                 </div>
             </div>
+            <Outlet />
         </header>
     );
 };
