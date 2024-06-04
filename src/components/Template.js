@@ -5,7 +5,7 @@ const Template = () => {
     return (
         <div>
             <div className="container head1">
-                <h1 className='aboutPage'>About Us</h1>
+                <h1 className='aboutPage my-5 py-5'>About Us</h1>
                 <img className='Rectangle1' src="./image/Rectangle 1.png" alt="" />
                 <p className='parra1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Vitae et leo duis ut diam quam nulla. Commodo ullamcorper a lacus vestibulum sed arcu. Amet dictum sit amet justo. Ante in nibh mauris cursus mattis. Fermentum leo vel orci porta. Mauris a diam maecenas sed enim. Lacinia at quis risus sed vulputate odio. Volutpat blandit aliquam etiam erat velit. Elit ut aliquam purus sit amet luctus. Id diam vel quam elementum pulvinar etiam non quam lacus. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Non blandit massa enim nec dui nunc mattis. Quis enim lobortis scelerisque fermentum dui faucibus in ornare. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Lacus luctus accumsan tortor posuere ac ut consequat semper.</p>
             </div>
