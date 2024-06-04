@@ -3,6 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
+        
         <header className='header'>
             <nav className="navbar">
                 <div className="navbar-logo">

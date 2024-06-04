@@ -1,20 +1,20 @@
 /* src/Navbar.css */
-.navbar {
+/* .navbar {
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
     /* align-items: center; */
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     /* margin: 0; */
-  }
+  /* } */
   
-  .navbar-logo {
+  /* .navbar-logo {
     height: 65px;
     display: flex;
     justify-content: start;
     margin-top: 16px;
-  }
-  .logo {
+  } */
+  /* .logo {
     width: 165px;
     height: 63px;
   }
@@ -28,42 +28,42 @@
   
   .navbar-links li {
     margin: 0 25px;
-  }
+  } */
   
-  .navbar-links a {
+  /* .navbar-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 18px; */
     /* font-family: Open; */
     /* fghjk */
-    font-weight: 400;
+    /* font-weight: 400;
     line-height: 24.51px;
     letter-spacing: 0.06em;
-  }
+  } */
   
-  .navbar-links a:hover {
+  /* .navbar-links a:hover {
     color: rgb(239, 239, 104);
-  }
+  } */
   
-  .head {
+  /* .head {
     display: flex;
-  }
-  .desc {
+  } */
+  /* .desc {
     display: flex;
     justify-content: start;
     color: #fff;
     /* font-family: Open Sans; */
-    font-size: 50px;
+    /* font-size: 50px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.06em;
     text-align: left;
-    margin-top: 150px;
-  }
-  .parra {
-    color: #fff;
+    margin-top: 150px; */
+  /* }  */
+  /* .parra {
+    color: #fff; */
     /* font-family: Open Sans; */
-    font-size: 16px;
+    /* font-size: 16px;
     font-weight: 600;
     line-height: 21.79px;
     letter-spacing: 0.06em;
@@ -73,26 +73,36 @@
     display: flex;
     justify-content: end;
     margin-top: 43px;
-  }
+  } */
   .head1 {
     width: 1440px;
-    height: 1392px;
-    top: 938px;
-    gap: 0px;
-    opacity: 0px;
+    height: 1272px;
+    margin-top: 50px;
+
   }
-  .aboutPage {
+
+ .aboutPage {
     /* font-family: Open Sans; */
+    display: flex;
+    justify-content: center;
     font-size: 64px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.06em;
     text-align: center;
     color: #000066;
-    margin-top: 200px;
+    /* margin-top: 200px; */
   }
   .Rectangle1 {
-    margin-top: 95px;
+    margin-top: 70px;
+    width: 90vw;
+    object-fit: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
   }
   .parra1 {
     /* font-family: Inter; */
@@ -102,9 +112,19 @@
     text-align: center;
     color: #000066;
     margin-top: 95px;
+    /* margin: 0; */
+    display: flex;
+    justify-content: start;
+
   }
-  .aboutPage {
-    margin: 10px 0 90px 0;
+  .our{
+    margin: 0px 0 130px 0;
+   font-size: 64px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #000066;
   }
   .ourServicesimg {
     display: flex;
@@ -264,8 +284,8 @@
     border-radius: 10px 0px 0px 0px;
   }
   .head6 {
-    margin-top: 130px 0 130px 0;
-    margin-bottom: 130px;
+    margin: 130px 0 130px 0;
+    /* margin-bottom: 130px; */
   }
   .reviews {
     /* font-family: Open Sans; */
@@ -275,17 +295,26 @@
     letter-spacing: 0.06em;
     color: #000066;
   }
+  .head7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+  }
   .card {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
     width: 568px;
     height: 450px;
     gap: 0px;
     border-radius: 8px;
     opacity: 0px;
     border: 1px solid #000066;
-  }
-  .head7 {
-    display: flex;
-    gap: 25px;
   }
   .clintReviews {
     width: 101px;
@@ -310,7 +339,7 @@
     margin: 20px 0 0 120px;
   }
   .review {
-    width: 166px;
+    width: 140px;
     height: 33.2px;
     display: flex;
     justify-content: end;
@@ -344,19 +373,5 @@
     text-align: left;
     margin: 20px 0 0 27px;
   }
-  /* .lArrow {
-    width: 51px;
-    height: 51px;
-    display: flex;
-    margin-top: 50px;
-  
-  } */
-  .footer {
-    /* width: 1440px;
-    height: 541px; */
-    /* top: 6192px;
-    gap: 120px; */
-    /* opacity: 0px; */
-    /* color: #000066; */
-  }
+
   

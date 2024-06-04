@@ -1,14 +1,19 @@
 import './App.css';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Template from './components/Template';
+// import { Link } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-      <div className="bottom">
         <Navbar/>
+        <Template/>
+        <Footer/>
       </div>
-      {/* <img src="./image/img1.png" alt="img1" /> */}
-    </div>
+    
+   
   );
 }
 

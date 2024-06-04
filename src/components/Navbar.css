@@ -4,9 +4,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.header {
+
+.header{
+  background:linear-gradient(rgba(0, 0, 102, 1),rgba(0, 0, 204, 1));
   width: 100%;
-  margin: 0 auto;
+  height: 580px; 
+  border-bottom-right-radius: 500px;
+
+  /* border-bottom-left-radius: 100px; */
 }
 
 .navbar {
