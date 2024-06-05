@@ -31,6 +31,7 @@ body {
 .navbar-links {
   display: flex;
   list-style: none;
+  margin-top: 22px;
 }
 
 .navbar-links li {
@@ -80,7 +81,8 @@ body {
 
 } */
 @media (max-width: 1200px) {
-  .hero-image {
-    display: none;
-  }
+.hero-image {
+  display: none;
+}
+  
 }
