@@ -5,17 +5,17 @@
     margin-top: 50px;
   
   } */
-  .footer {
-    width: 100%;
-    height: auto;
-    background-color: #4e4250;
-    /* margin-top: 160px; */
-  }
-  .footerContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #4e4250;
+  /* margin-top: 160px; */
+}
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .col-12 {
   color: #ffff;
@@ -37,7 +37,6 @@
 .socialMedia {
   /* padding: 0.4px 0.24px 0.6px 0.94px; */
   display: flex;
-
 }
 .icon {
   width: 16px;
@@ -50,13 +49,12 @@
 }
 
 .Company {
-
   /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; */
 }
-.h5Tag{
+.h5Tag {
   /* display: flex;
   justify-content: start;
   align-items: center; */
@@ -68,14 +66,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center; */
-
 }
 .ContactsUs {
   /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;  */
-
 }
 .navbarLink {
   /* display: flex;
@@ -91,11 +87,10 @@ a {
   color: white;
   list-style-type: none;
 }
-.horizantalLine{
+.horizantalLine {
   /* margin-bottom: 50px; */
 }
 /* .termAndCondi{
   display: flex;
   flex-direction: row;
 } */
-

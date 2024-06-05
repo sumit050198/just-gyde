@@ -80,8 +80,7 @@ body {
 
 } */
 @media (max-width: 1200px) {
-.hero-image {
-  display: none;
-}
-  
+  .hero-image {
+    display: none;
+  }
 }

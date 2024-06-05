@@ -59,7 +59,7 @@ const Footer = () => {
                 <li className='termAndCondi'> <Link className='text-primary mx-1' to="/"> FAQ |</Link></li>
                 {/* </div> */}
             </div>
-        // </div>
+        </div>
     )
 }
 

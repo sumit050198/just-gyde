@@ -1,16 +1,16 @@
-import React ,  { useState } from 'react'
+import React, { useState } from 'react'
 import { Rating } from 'react-simple-star-rating'
 import './Template.css';
 
 export function MyComponent() {
     const [rating, setRating] = useState(0)
-    const [lavel,setLavel]=useState(0)
-  
+    const [lavel, setLavel] = useState(0)
+
     // Catch Rating value
     const handleRating = (rate: number) => {
-      setRating(rate)
-  
-      // other logic
+        setRating(rate)
+
+        // other logic
     }
     // Optinal callback functions
     const onPointerEnter = () => {
@@ -18,22 +18,22 @@ export function MyComponent() {
     }
 
 
-    const onPointerLeave = () => {}
+    const onPointerLeave = () => { }
     const onPointerMove = (value: number, index: number) => console.log(value, index)
-  
+
     return (
-      <div className='ClintReviews'>
-        <Rating
-          onClick={handleRating}
-          onPointerEnter={onPointerEnter}
-          onPointerLeave={onPointerLeave}
-          onPointerMove={onPointerMove}
-          /* Available Props */
-        />
-         <p className="rating">{rating}/{lavel}</p>
-      </div>
+        <div className='ClintReviews'>
+            <Rating
+                onClick={handleRating}
+                onPointerEnter={onPointerEnter}
+                onPointerLeave={onPointerLeave}
+                onPointerMove={onPointerMove}
+            /* Available Props */
+            />
+            <p className="rating">{rating}/{lavel}</p>
+        </div>
     )
-  }
+}
 
 
 
@@ -80,13 +80,13 @@ const ClintReviews = () => {
                         </div>
                         <div className="reviews">
                             {/* <img className="review" src="./image/reviews.png" alt="" /> */}
-                            <MyComponent/>
-                           
+                            <MyComponent />
+
                         </div>
                     </div>
                     <div className="clintReviews1">
                         <h3 className='cr1'>Medical Service</h3>
-                        <div className="d-flex justify-content-start m-0 p-0">
+                        <div className="d-flex justify-content-start">
                             {/* <img className='lArrow' src="./image/lArrow.png" alt="" /> */}
                             <p className='dr1'> Just Gyde offers a robust range of medical services designed to cater to urgent and everyday health needs. We provide fast and reliable ambulance services, ensuring immediate assistance in emergencies. Our blood bank services make it easy to find and donate blood, helping to save lives. </p>
                         </div>
@@ -103,16 +103,18 @@ const ClintReviews = () => {
                             <h3>Vinay</h3>
                             <p><img className='location' src="./image/location.png" alt="" /> Delhi</p>
                         </div>
-                        <div className="reviews">
-                        <MyComponent />
+                        <div className="reviews1">
+                            <MyComponent />
                             {/* <img className="review" src="./image/reviews.png" alt="" /> */}
                             {/* <p className="rating">4/5</p> */}
                         </div>
                     </div>
                     <div className="clintReviews1">
                         <h3 className='cr1'>Financial Service</h3>
-                        {/* <img className='lArrow' src="./image/rArrow.png" alt="" /> */}
-                        <p className='dr1'>Just Gyde is committed to helping individuals achieve their financial goals through comprehensive support and resources. We offer job placement services to connect the unemployed with meaningful employment opportunities. Our platform provides tools and advice for financial planning and goal setting.</p>
+                        <div className="d-flex justify-content-start m-0 p-0">
+                            {/* <img className='lArrow' src="./image/rArrow.png" alt="" /> */}
+                            <p className='dr1'>Just Gyde is committed to helping individuals achieve their financial goals through comprehensive support and resources. We offer job placement services to connect the unemployed with meaningful employment opportunities. Our platform provides tools and advice for financial planning and goal setting.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,7 +134,7 @@ const Template = () => {
                 <div className="laundryServices">
                     <div className="ourServiceslaundry">
                         <h3 className='serviceHeading'>Entertainment Service</h3>
-                        <p className='parra2'>Just Gyde brings excitement to your life with a wide array of entertainment services. We have partnerships with multiple and other entities to offer exclusive deals and rewards. Our platform allows users to earn and redeem coins for various entertainment activities. Enjoy movies, events, and more with our seamless booking and reward system. We aim to make entertainment accessible and affordable for everyone. Our services include discounts on movie tickets, event passes, and more. Just Gyde enhances your leisure time by providing curated entertainment experiences. Dive into a world of fun and relaxation with Just Gyde, where entertainment meets convenience.  </p>
+                        <p className='parra2'>Just Gyde brings excitement to your life with a wide array of entertainment services. We have partnerships with PVR and other entities to offer exclusive deals and rewards. Our platform allows users to earn and redeem coins for various entertainment activities. Enjoy movies, events, and more with our seamless booking and reward system. We aim to make entertainment accessible and affordable for everyone. Our services include discounts on movie tickets, event passes, and more. Just Gyde enhances your leisure time by providing curated entertainment experiences. Dive into a world of fun and relaxation with Just Gyde, where entertainment meets convenience.  </p>
                     </div>
                     <img className='Rectangle3' src="./image/entertenment.jpg" alt="" />
                 </div>

@@ -13,16 +13,16 @@ const Navbar = () => {
     return (
 
         // style={{ backgroundImage:`url(${'./image/Vector1.png'})`, width: "100%", height: "672px" }}
-        <header className='header'> ;
+        <header className='header'>
             <nav className="container navbar">
                 <div className="navbar-logo">
                     <img className='logo' src="../image/logoJustGyde.png" alt="Logo" />
                 </div>
                 <ul className="navbar-links">
-                    <li> <Link to="/Services">Home</Link></li>
-                    <li> <Link to="/Services">About</Link></li>
-                    <li> <Link to="/Services">Service</Link></li>
-                    <li> <Link to="/Services">Reviews</Link></li>
+                    <li> <Link to="/">Home</Link></li>
+                    <li> <Link to="/">About</Link></li>
+                    <li> <Link to="/">Service</Link></li>
+                    <li> <Link to="/">Reviews</Link></li>
                     <li> <Link to="/Services">Contact Us</Link></li>
                 </ul>
             </nav>
@@ -31,9 +31,9 @@ const Navbar = () => {
                     <div className="hero-text">
                         <h3 className='desc'>Reliable Solutions,<br /> Exceptional Service</h3>
                         <p className='parra'>At our company, we pride ourselves on delivering reliable <br />solutions coupled with exceptional service.
-                         Our commitment <br />to excellence ensures that every project we undertake meets<br /> the highest standards of quality and 
-                         satisfaction. Trust us to <br />provide innovative and dependable solutions tailored to<br /> your needs, backed by a team dedicated 
-                         to outstanding customer service.</p>
+                            Our commitment <br />to excellence ensures that every project we undertake meets<br /> the highest standards of quality and
+                            satisfaction. Trust us to <br />provide innovative and dependable solutions tailored to<br /> your needs, backed by a team dedicated
+                            to outstanding customer service.</p>
                     </div>
                     <div className="hero-image"
                         style={{ backgroundImage: `url(${'./image/imgback.png'})`, height: "512px", width: "530px", marginLeft: "8px" }}>
