@@ -4,6 +4,7 @@ import './Template.css';
 
 export function MyComponent() {
     const [rating, setRating] = useState(0)
+    const [lavel,setLavel]=useState(0)
   
     // Catch Rating value
     const handleRating = (rate: number) => {
@@ -12,8 +13,12 @@ export function MyComponent() {
       // other logic
     }
     // Optinal callback functions
-    const onPointerEnter = () => console.log('Enter')
-    const onPointerLeave = () => console.log('Leave')
+    const onPointerEnter = () => {
+        setLavel(5)
+    }
+
+
+    const onPointerLeave = () => {}
     const onPointerMove = (value: number, index: number) => console.log(value, index)
   
     return (
@@ -25,6 +30,7 @@ export function MyComponent() {
           onPointerMove={onPointerMove}
           /* Available Props */
         />
+         <p className="rating">{rating}/{lavel}</p>
       </div>
     )
   }
@@ -64,6 +70,7 @@ const Services = () => {
 const ClintReviews = () => {
     return (
         <div className="container head7">
+
             <div className="card">
                 <div className="row">
                     <div className="clintReviews"><img src="./image/vinay.png" alt="" />
@@ -74,7 +81,7 @@ const ClintReviews = () => {
                         <div className="reviews">
                             {/* <img className="review" src="./image/reviews.png" alt="" /> */}
                             <MyComponent/>
-                            <p className="rating">4/5</p>
+                           
                         </div>
                     </div>
                     <div className="clintReviews1">
@@ -86,6 +93,9 @@ const ClintReviews = () => {
                     </div>
                 </div>
             </div>
+
+
+
             <div className="card">
                 <div className="row">
                     <div className="clintReviews"><img src="./image/vinay.png" alt="" />
@@ -94,9 +104,9 @@ const ClintReviews = () => {
                             <p><img className='location' src="./image/location.png" alt="" /> Delhi</p>
                         </div>
                         <div className="reviews">
-                        <MyComponent/>
+                        <MyComponent />
                             {/* <img className="review" src="./image/reviews.png" alt="" /> */}
-                            <p className="rating">4/5</p>
+                            {/* <p className="rating">4/5</p> */}
                         </div>
                     </div>
                     <div className="clintReviews1">

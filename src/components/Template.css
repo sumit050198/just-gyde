@@ -12,7 +12,7 @@
     line-height: 60px;
     letter-spacing: 0.06em;
     text-align: center;
-    color: #000066;
+    color: #4e4250;
     margin: 110px 0 115px 0;
   }
   .Rectangle1 {
@@ -33,7 +33,7 @@
     font-weight: 400;
     line-height: 38px;
     text-align: center;
-    color: #000066;
+    color: #4e4250;
     margin-top: 92px;
   }
   .our{
@@ -43,7 +43,7 @@
     line-height: 60px;
     letter-spacing: 0.06em;
     text-align: center;
-    color: #000066;
+    color: #4e4250;
   }
   .ourServicesimg {
     display: flex;
@@ -70,7 +70,7 @@
     line-height: 30px;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #000066;
+    color: #4e4250;
   }
   .head2{
     margin-top: 0;
@@ -90,7 +90,7 @@
     line-height: 50px;
     letter-spacing: 0.06em;
     text-align: left;
-    color: #000066;
+    color: #4e4250;
     margin-bottom: 25px;
   }
   .parra2 {
@@ -117,7 +117,7 @@
     line-height: 35px;
     letter-spacing: 0.06em;
     text-align: left;
-    color: #000066;
+    color: #4e4250;
     margin-bottom: 25px;
   }
   .ourCleansingimg {
@@ -151,7 +151,7 @@
     line-height: 35px;
     letter-spacing: 0.06em;
     text-align: left;
-    color: #000066;
+    color: #4e4250;
     margin-bottom: 25px;
   }
   .Rectangle4 {
@@ -178,7 +178,7 @@
     line-height: 35px;
     letter-spacing: 0.06em;
     text-align: left;
-    color: #000066;
+    color: #4e4250;
     margin-bottom: 25px;
   }
   .parra5 {
@@ -202,11 +202,13 @@
   }
   .reviews {
     /* font-family: Open Sans; */
-    font-size: 64px;
+    /* font-size: 64px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 60px; */
+    width: 190px;
     letter-spacing: 0.06em;
-    color: #000066;
+    color: #4e4250;
+    /* margin-right: px; */
   }
   .head7 {
     display: flex;
@@ -222,7 +224,7 @@
     gap: 0px;
     border-radius: 8px;
     /* opacity: 0px; */
-    border: 1px solid #000066;
+    border: 1px solid #4e4250;
   }
   .clintReviews {
     width: 101px;
@@ -267,7 +269,7 @@
     line-height: 35px;
     letter-spacing: 0.06em;
     text-align: left;
-    color: #000066;
+    color: #4e4250;
     margin: 20px 0 0 27px;
   }
   .dr1 {
