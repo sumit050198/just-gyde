@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
                 {/* </div> */}
             </div>
-            <hr class="horizantalLine border border-white border-1 opacity-100 my-4"></hr>
+            <hr class="horizantalLine border border-white border-1 opacity-50 my-4"></hr>
             <div className=" d-flex justify-content-center align-items-center">
                 <li className='termAndCondi'> <Link to="/"> All Rights Reserved | </Link></li>
                 <li className='termAndCondi'> <Link className='text-primary mx-1' to="/"> Terms and Conditions |</Link></li>

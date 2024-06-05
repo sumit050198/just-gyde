@@ -31,7 +31,7 @@ const Services = () => {
         </div>
     )
 }
-const Reviews = () => {
+const ClintReviews = () => {
     return (
         <div className="container head7">
             <div className="card">
@@ -116,9 +116,9 @@ const Template = () => {
                 </div>
             </div>
             <div className=" head6">
-                {/* <h1 className='h1tag'>Reviews</h1> */}
+                <h1 className='h1tag'>Reviews</h1>
             </div>
-            <clintReviews />
+            <ClintReviews />
         </div>
     )
 }

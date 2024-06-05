@@ -213,15 +213,10 @@
     justify-content: center;
     align-items: center;
     gap: 25px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;*/
+    margin-bottom: 140px;
+ 
   }
-  .card {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    
+  .card { 
     width: 568px;
     height: 450px;
     gap: 0px;
@@ -247,8 +242,6 @@
   .reviews {
     display: flex;
     flex-direction: column;
-    /* justify-content: end;
-    align-items: end; */
     margin: 20px 0 0 120px;
   }
   .review {
