@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="col-12 my-5">
                     <div className="footerLogo col-3 mx-5">
                         <img className='logo my-3' src="../image/logoJustGyde.png" alt="Logo" />
-                        <p className='parrafooter'>Lorem ipsum dolor sit amet <br /> consectetur adipiscing elit aliquam</p>
+                        <p className='parrafooter'> Dependable solutions, tailored to your needs, ensuring quality and consistency. Exceptional support, exceeding expectations with personalized and attentive care.</p>
                         <div className="socialMedia">
                             <img className='icon' src="./image/Facebook.png" alt="" />
                             <img className='icon mx-4' src="./image/Instagram.png" alt="" />

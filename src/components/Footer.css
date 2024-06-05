@@ -26,13 +26,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  /* margin-top: 200px; */
 }
 .logo {
   height: 59px;
 }
 .parrafooter {
-  justify-content: start;
+  font-size: 15.5px;
 }
 
 .socialMedia {
