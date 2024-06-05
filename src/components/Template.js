@@ -116,7 +116,7 @@ const Template = () => {
                 </div>
             </div>
             <div className=" head6">
-                <h1 className='h1tag'>Reviews</h1>
+                {/* <h1 className='h1tag'>Reviews</h1> */}
             </div>
             <clintReviews />
         </div>

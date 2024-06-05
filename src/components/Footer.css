@@ -5,15 +5,18 @@
     margin-top: 50px;
   
   } */
-.footer {
-  /* width: 98.5vw; */
-  width: 100%;
-  height: 541px;
-  gap: 120px;
-  /* opacity: 0px; */
-  background-color: #000066;
-  margin-top: 160px;
-}
+  .footer {
+    width: 100%;
+    height: auto;
+    background-color: #000066;
+    /* margin-top: 160px; */
+  }
+  .footerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 .col-12 {
   color: #ffff;
   display: flex;
@@ -21,66 +24,67 @@
 .footerLogo {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: start;
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 .logo {
-  height: 50px;
-  /* width: 60; */
+  height: 59px;
 }
 .parrafooter {
-  /* display: flex;     */
   justify-content: start;
-  /* align-items: start; */
 }
 
 .socialMedia {
-  padding: 0.4px 0.24px 0.6px 0.94px;
+  /* padding: 0.4px 0.24px 0.6px 0.94px; */
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+
 }
 .icon {
-  width: 13px;
-  height: 15px;
+  width: 16px;
+  height: 18px;
   display: flex;
   flex-direction: row;
   gap: 25px;
-  margin: 10px;
+  object-fit: contain;
+  /* margin: 10px; */
 }
+
 .Company {
-  display: flex;
+
+  /* display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.h5Tag{
+  /* display: flex;
   justify-content: start;
-  align-items: end;
-  margin-top: 200px;
-  margin-left: 150px;
+  align-items: center; */
+  font-weight: 520;
+  /* padding: 0; */
 }
 .Support {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  margin-top: 200px;
-  margin-left: 150px;
+  justify-content: center;
+  align-items: center; */
+
 }
 .ContactsUs {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  margin-top: 200px;
-  margin-left: 150px;
+  justify-content: center;
+  align-items: center;  */
+
 }
 .navbarLink {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: start;
+  align-items: start; */
   text-decoration: none;
   color: #ffff;
-  /* margin-top: 500px; */
 }
 li,
 a {
@@ -88,3 +92,11 @@ a {
   color: white;
   list-style-type: none;
 }
+.horizantalLine{
+  /* margin-bottom: 50px; */
+}
+/* .termAndCondi{
+  display: flex;
+  flex-direction: row;
+} */
+

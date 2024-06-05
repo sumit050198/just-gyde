@@ -1,56 +1,63 @@
 import React from 'react'
+import { Outlet, Link } from "react-router-dom";
 import './Footer.css';
 
 const Footer = () => {
     return (
         // <div>
         <div className="footer">
-            <div className="container">
-                <div className="col-12">
-                    <div className="footerLogo">
-                        <img className='logo' src="../image/logoJustGyde.png" alt="Logo" />
+            <div className="container footerContainer">
+                {/* <div className="row"> */}
+                <div className="col-12 my-5">
+                    <div className="footerLogo col-3 mx-5">
+                        <img className='logo my-3' src="../image/logoJustGyde.png" alt="Logo" />
                         <p className='parrafooter'>Lorem ipsum dolor sit amet <br /> consectetur adipiscing elit aliquam</p>
                         <div className="socialMedia">
                             <img className='icon' src="./image/Facebook.png" alt="" />
-                            <img className='icon' src="./image/Instagram.png" alt="" />
-                            <img className='icon' src="./image/LinkedIn.png" alt="" />
-                            <img className='icon' src="./image/Twitter.png" alt="" />
-                            <img className='icon' src="./image/Facebook.png" alt="" />
+                            <img className='icon mx-4' src="./image/Instagram.png" alt="" />
+                            <img className='icon ' src="./image/LinkedIn.png" alt="" />
+                            <img className='icon mx-4' src="./image/Twitter.png" alt="" />
+                            <img className='icon' src="./image/youtub.png" alt="" />
                         </div>
                     </div>
-
-                    <div className="Company">
-                        <h5>Company</h5>
-                        <ul className="navbarLinks">
-                            <li><a href="#home">About</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#reviews">Reviews</a></li>
-                        </ul>
+                    <div className="footerNav d-flex justify-content-center align-items-center">
+                        <div className="Company mx-5">
+                            <ul className="navbarLinks">
+                                <h5 className='h5Tag'>Company</h5>
+                                <li> <Link to="/">About</Link></li>
+                                <li className='my-2'> <Link to="/">Contact Us</Link></li>
+                                <li> <Link to="/">Services</Link></li>
+                                <li className='my-2'> <Link to="/">Reviews</Link></li>
+                            </ul>
+                        </div>
+                        <div className="Support">
+                            <ul className="navbarLink">
+                                <h5 className='h5Tag'>Support</h5>
+                                <li > <Link to="/">Getting started</Link></li>
+                                <li className='my-2'> <Link to="/">Help center</Link></li>
+                                <li> <Link to="/">Server status</Link></li>
+                                <li className='my-2'> <Link to="/">Report a bug</Link></li>
+                            </ul>
+                        </div>
+                        <div className="ContactsUs mx-5">
+                            <ul className="navbarLink">
+                                <h5 className='h5Tag mx-2'>Contacts us</h5>
+                                <li className=''> <Link className='d-flex' to="/"><img className='icon my-1 mx-2' src="./image/Email.png" alt="" /> contact@company.com</Link></li>
+                                <li className='my-2'> <Link className='d-flex' to="/"><img className='icon mx-2' src="./image/phone.png" alt="" /> (414) 687 - 5892</Link></li>
+                                <li className=''> <Link className='d-flex' to="/"><img className='icon my-1 mx-2' src="./image/mark.png" alt="" /> 794 ADC123 St <br /> Dummy Text, 94102</Link></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="Support">
-                        <h5>Support</h5>
-                        <ul className="navbarLink">
-                            <li><a href="#home">Getting started</a></li>
-                            <li><a href="#contact">Help center</a></li>
-                            <li><a href="#services">Server status</a></li>
-                            <li><a href="#reviews">Report a bug</a></li>
-                        </ul>
-                    </div>
-                    <div className="ContactsUs">
-                        <h5>Contacts us</h5>
-                        <ul className="navbarLink">
-                            <li><a href="#home">contact@company.com</a></li>
-                            <li><a href="#contact">(414) 687 - 5892</a></li>
-                            <li><a href="#services">794 ADC123 St <br />
-                                Dummy Text, 94102</a></li>
-                        </ul>
-                    </div>
-                    {/* <hr style={{"height:2px ,border-width:0;color:gray;background-color:gray"}} /> */}
-                    {/* <hr /> */}
                 </div>
+                {/* </div> */}
             </div>
-        </div>
+            <hr class="horizantalLine border border-white border-1 opacity-100 my-4"></hr>
+            <div className=" d-flex justify-content-center align-items-center">
+                <li className='termAndCondi'> <Link to="/"> All Rights Reserved | </Link></li>
+                <li className='termAndCondi'> <Link className='text-primary mx-1' to="/"> Terms and Conditions |</Link></li>
+                <li className='termAndCondi'> <Link className='text-primary' to="/">Privacy Policy</Link></li>
+                {/* </div> */}
+            </div>
         // </div>
     )
 }
