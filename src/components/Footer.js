@@ -43,8 +43,8 @@ const Footer = () => {
                             <ul className="navbarLink">
                                 <h5 className='h5Tag mx-2'>Contacts us</h5>
                                 <li className=''> <Link className='d-flex' to="/"><img className='icon my-1 mx-2' src="./image/Email.png" alt="" /> contact@company.com</Link></li>
-                                <li className='my-2'> <Link className='d-flex' to="/"><img className='icon mx-2' src="./image/phone.png" alt="" /> (414) 687 - 5892</Link></li>
-                                <li className=''> <Link className='d-flex' to="/"><img className='icon my-1 mx-2' src="./image/mark.png" alt="" /> 794 ADC123 St <br /> Dummy Text, 94102</Link></li>
+                                <li className='my-2'> <Link className='d-flex' to="/"><img className='icon mx-2' src="./image/Phone.png" alt="" /> (414) 687 - 5892</Link></li>
+                                <li className=''> <Link className='d-flex' to="/"><img className='icon my-1 mx-2' src="./image/Mark.png" alt="" /> 794 ADC123 St <br /> Dummy Text, 94102</Link></li>
                             </ul>
                         </div>
                     </div>
