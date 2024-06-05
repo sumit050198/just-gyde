@@ -221,7 +221,7 @@
     height: 450px;
     gap: 0px;
     border-radius: 8px;
-    opacity: 0px;
+    /* opacity: 0px; */
     border: 1px solid #000066;
   }
   .clintReviews {

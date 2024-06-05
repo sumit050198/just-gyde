@@ -1,5 +1,35 @@
-import React from 'react'
+import React ,  { useState } from 'react'
+import { Rating } from 'react-simple-star-rating'
 import './Template.css';
+
+export function MyComponent() {
+    const [rating, setRating] = useState(0)
+  
+    // Catch Rating value
+    const handleRating = (rate: number) => {
+      setRating(rate)
+  
+      // other logic
+    }
+    // Optinal callback functions
+    const onPointerEnter = () => console.log('Enter')
+    const onPointerLeave = () => console.log('Leave')
+    const onPointerMove = (value: number, index: number) => console.log(value, index)
+  
+    return (
+      <div className='ClintReviews'>
+        <Rating
+          onClick={handleRating}
+          onPointerEnter={onPointerEnter}
+          onPointerLeave={onPointerLeave}
+          onPointerMove={onPointerMove}
+          /* Available Props */
+        />
+      </div>
+    )
+  }
+
+
 
 const About = () => {
     return (
@@ -42,7 +72,8 @@ const ClintReviews = () => {
                             <p><img className='location' src="./image/location.png" alt="" /> Delhi</p>
                         </div>
                         <div className="reviews">
-                            <img className="review" src="./image/reviews.png" alt="" />
+                            {/* <img className="review" src="./image/reviews.png" alt="" /> */}
+                            <MyComponent/>
                             <p className="rating">4/5</p>
                         </div>
                     </div>
@@ -63,7 +94,8 @@ const ClintReviews = () => {
                             <p><img className='location' src="./image/location.png" alt="" /> Delhi</p>
                         </div>
                         <div className="reviews">
-                            <img className="review" src="./image/reviews.png" alt="" />
+                        <MyComponent/>
+                            {/* <img className="review" src="./image/reviews.png" alt="" /> */}
                             <p className="rating">4/5</p>
                         </div>
                     </div>
