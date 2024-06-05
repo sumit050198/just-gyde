@@ -85,10 +85,10 @@ const ClintReviews = () => {
                         </div>
                     </div>
                     <div className="clintReviews1">
-                        <h3 className='cr1'>Laundry Service</h3>
+                        <h3 className='cr1'>Medical Service</h3>
                         <div className="d-flex justify-content-start m-0 p-0">
                             {/* <img className='lArrow' src="./image/lArrow.png" alt="" /> */}
-                            <p className='dr1'> I recently had the pleasure of using Fresh & Clean Laundry Service, and I couldn't be happier with the experience. From start to finish, their service was impeccable and truly exceeded my expectations. The staff was incredibly friendly and helpful, making the entire process smooth </p>
+                            <p className='dr1'> Just Gyde offers a robust range of medical services designed to cater to urgent and everyday health needs. We provide fast and reliable ambulance services, ensuring immediate assistance in emergencies. Our blood bank services make it easy to find and donate blood, helping to save lives. </p>
                         </div>
                     </div>
                 </div>
@@ -110,9 +110,9 @@ const ClintReviews = () => {
                         </div>
                     </div>
                     <div className="clintReviews1">
-                        <h3 className='cr1'>Laundry Service</h3>
+                        <h3 className='cr1'>Financial Service</h3>
                         {/* <img className='lArrow' src="./image/rArrow.png" alt="" /> */}
-                        <p className='dr1'> I recently had the pleasure of using Fresh & Clean Laundry Service, and I couldn't be happier with the experience. From start to finish, their service was impeccable and truly exceeded my expectations. The staff was incredibly friendly and helpful, making the entire process smooth </p>
+                        <p className='dr1'>Just Gyde is committed to helping individuals achieve their financial goals through comprehensive support and resources. We offer job placement services to connect the unemployed with meaningful employment opportunities. Our platform provides tools and advice for financial planning and goal setting.</p>
                     </div>
                 </div>
             </div>

@@ -30,10 +30,13 @@ const Navbar = () => {
                 <div className="container hero">
                     <div className="hero-text">
                         <h3 className='desc'>Reliable Solutions,<br /> Exceptional Service</h3>
-                        <p className='parra'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua</p>
+                        <p className='parra'>At our company, we pride ourselves on delivering reliable <br />solutions coupled with exceptional service.
+                         Our commitment <br />to excellence ensures that every project we undertake meets<br /> the highest standards of quality and 
+                         satisfaction. Trust us to <br />provide innovative and dependable solutions tailored to<br /> your needs, backed by a team dedicated 
+                         to outstanding customer service.</p>
                     </div>
                     <div className="hero-image"
-                     style={{ backgroundImage: `url(${'./image/imgback.png'})`, height: "512px", width: "530px", marginLeft: "45px" }}>
+                        style={{ backgroundImage: `url(${'./image/imgback.png'})`, height: "512px", width: "530px", marginLeft: "8px" }}>
                         {/* <div className='imgback' */}
 
                         <img className='mobileimage my' style={{ height: "400px", width: "400px", margin: "55px 0 0 75px" }} src="./image/img1.svg" alt="Hero" />
