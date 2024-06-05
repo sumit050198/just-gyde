@@ -4,6 +4,9 @@ import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Template from './components/Template';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import TermCondition from './components/TermCondition';
+import Policy from './components/Policy';
+import FAQ from './components/FAQ';
 // import { Link } from 'react-router-dom';
 
 const MainCom = () => {
@@ -18,15 +21,16 @@ const MainCom = () => {
 
 function App() {
   return (
-
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainCom />} />
         <Route path="/Services" element={<Services />} />
-        {/* <Route path="/Home" element={<Home/>}/> */}
+        <Route path="/TermCondition" element={<TermCondition/>}/>
+        <Route path="/Policy" element={<Policy/>}/>
+        <Route path="/FAQ" element={<FAQ/>}/>
+        {/* <Route path="P" element={<Blogs />} /> */}
         {/* <Route index element={<Home />} />
-        <Route path="blogs" element={<Blogs />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="contact" element={<Contact />} />y
         <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
       </Routes>

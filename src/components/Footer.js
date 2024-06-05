@@ -54,13 +54,13 @@ const Footer = () => {
             <hr class="horizantalLine border border-white border-1 opacity-50 my-4"></hr>
             <div className=" d-flex justify-content-center align-items-center">
                 <li className='termAndCondi'> <Link to="/"> All Rights Reserved | </Link></li>
-                <li className='termAndCondi'> <Link className='text-primary mx-1' to="/"> Terms and Conditions |</Link></li>
-                <li className='termAndCondi'> <Link className='text-primary' to="/">Privacy Policy |</Link></li>
-                <li className='termAndCondi'> <Link className='text-primary mx-1' to="/"> FAQ |</Link></li>
+                <li className='termAndCondi'> <Link className='text-primary mx-1' to="/TermCondition"> Terms and Conditions |</Link></li>
+                <li className='termAndCondi'> <Link className='text-primary' to="/Policy">Privacy Policy |</Link></li>
+                <li className='termAndCondi'> <Link className='text-primary mx-1' to="/FAQ"> FAQ |</Link></li>
                 {/* </div> */}
             </div>
         </div>
     )
 }
 
-export default Footer
+export default Footer;
