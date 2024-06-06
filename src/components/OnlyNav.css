@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  .header {
+  .head {
     background-color: #4e4250;
     /* background:linear-gradient(rgba(0, 0, 102, 1),rgba(0, 0, 204, 1)); */
     width: 100%;
@@ -14,7 +14,7 @@ body {
     top: 0;
   }
   
-  .navbar {
+  .OnlyNav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,10 +24,6 @@ body {
   }
   .navbar-links a:hover {
     color: rgb(239, 239, 104);
-  }
-  
-  .navbar-logo img {
-    /* height: 50px; */
   }
   
   .navbar-links {

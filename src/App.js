@@ -8,14 +8,14 @@ import TermCondition from './components/TermCondition';
 import Policy from './components/Policy';
 import FAQ from './components/FAQ';
 import OurMission from './components/OurMission';
-import OnlyNav from './components/OnlyNav';
+// import OnlyNav from './components/OnlyNav';
 // import { Link } from 'react-router-dom';
 
 const MainCom = () => {
   return (
     <div className="App">
       <Navbar />
-      <OnlyNav/>
+      {/* <OnlyNav/> */}
       <Template />
       <Footer />
     </div>

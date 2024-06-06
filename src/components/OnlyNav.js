@@ -4,8 +4,8 @@ import './OnlyNav.css';
 
 const OnlyNav = () => {
   return (
-    <header className='header'>
-    <nav className="container navbar">
+    <header className='head'>
+    <nav className="container OnlyNav">
         <div className="navbar-logo">
             <img className='logo' src="../image/logoJustGyde.png" alt="Logo" />
         </div>
