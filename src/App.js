@@ -8,14 +8,13 @@ import TermCondition from './components/TermCondition';
 import Policy from './components/Policy';
 import FAQ from './components/FAQ';
 import OurMission from './components/OurMission';
-// import OnlyNav from './components/OnlyNav';
-// import { Link } from 'react-router-dom';
+import OurVision from './components/OurVision';
+import OnlyNav from './components/OnlyNav';
 
 const MainCom = () => {
   return (
     <div className="App">
       <Navbar />
-      {/* <OnlyNav/> */}
       <Template />
       <Footer />
     </div>
@@ -30,8 +29,10 @@ function App() {
         <Route path="/Services" element={<Services />} />
         <Route path="/TermCondition" element={<TermCondition/>}/>
         <Route path="/Policy" element={<Policy/>}/>
-        <Route path="/FAQ" element={<FAQ/>}/>
+        <Route path="/OnlyNav" element={<OnlyNav/>}/>
         <Route path="/OurMission" element={<OurMission/>}/>
+        <Route path="/FAQ" element={<FAQ/>}/>
+        <Route path="/OurVision" element={<OurVision/>}/>
         {/* <Route index element={<Home />} />
         <Route path="contact" element={<Contact />} />y
         {/* </Route> */}

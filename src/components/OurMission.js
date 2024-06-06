@@ -1,6 +1,6 @@
 import React from 'react'
 import { Outlet, Link } from "react-router-dom";
-import './Navbar.css';
+// import './Navbar.css';
 // import Navbar from './Navbar';
 import OnlyNav from './OnlyNav';
 import Footer from './Footer';
