@@ -47,9 +47,9 @@ const Footer = () => {
                             <div className="ContactsUs mx-5">
                                 <ul className="navbarLink">
                                     <h5 className='h5Tag mx-2'>Contacts us</h5>
-                                    <li className='my-4 mx-'> <Link className='d-flex' to="/"><img className='icon my-1 mx-2' src="./image/Email.png" alt="" /> contact@Justgyde.com </Link></li>
-                                    <li className='my-2'> <Link className='d-flex' to="/"><img className='icon mx-2' src="./image/Phone.png" alt="" /> (414) 687 - 5892</Link></li>
-                                    <li className=''> <Link className='d-flex' to="/"><img className='icon my-1 mx-2' src="./image/Mark.png" alt="" /> 794 ADC123 St <br /> Dummy Text, 94102</Link></li>
+                                    <li className='my-4 mx-'> <Link className='d-flex' to=""><img className='icon my-1 mx-2' src="./image/Email.png" alt="" /> contact@Justgyde.com </Link></li>
+                                    <li className='my-2'> <Link className='d-flex' to=""><img className='icon mx-2' src="./image/Phone.png" alt="" /> (414) 687 - 5892</Link></li>
+                                    <li className=''> <Link className='d-flex' to=""><img className='icon my-1 mx-2' src="./image/Mark.png" alt="" /> 794 ADC123 St <br /> Dummy Text, 94102</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -58,8 +58,8 @@ const Footer = () => {
             {/* </div> */}
             <hr class="horizantalLine border border-white border-1 opacity-50 my-4"></hr>
             <div className=" d-flex justify-content-center align-items-center">
-                <li className='termAndCondi'> <Link className="copyrights" to="/">Copyrights 2024.</Link></li>
-                <li className='termAndCondi'> <Link className="copyrights mx-1" to="/">All Rights Reserved | Just Gyde</Link></li>
+                <li className='termAndCondi'> <Link className="copyrights" to="">Copyrights 2024.</Link></li>
+                <li className='termAndCondi'> <Link className="copyrights mx-1" to="">All Rights Reserved | Just Gyde</Link></li>
                 {/* <li className='termAndCondi'> <Link className='text-primary mx-1' to="/TermCondition"> Terms and Conditions |</Link></li>
                 <li className='termAndCondi'> <Link className='text-primary' to="/Policy">Privacy Policy |</Link></li>
                 <li className='termAndCondi'> <Link className='text-primary mx-1' to="/FAQ"> FAQ |</Link></li> */}

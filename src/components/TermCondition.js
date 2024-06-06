@@ -1,9 +1,13 @@
 import React from 'react'
 import { Outlet, Link } from "react-router-dom";
+import Footer from './Footer';
+import OnlyNav from './OnlyNav';
 
 const TermCondition = () => {
   return (
-        <div className='container' style={{ padding: '20px' }}>
+    <>
+        <OnlyNav/>
+        <div className='container my-5' style={{ padding: '20px' }}>
             <h1 style={{color: "#4e4250"}}>Terms and Conditions</h1>
             {/* <p>Last updated: June 5, 2024</p> */}
             <p>
@@ -70,18 +74,20 @@ const TermCondition = () => {
             <p>
                 If you have any questions about these Terms and Conditions, You can contact us:
             </p>
-            <hr class="horizantalLine border border-black border-1 opacity-25"></hr>
+            {/* <hr class="horizantalLine border border-black border-1 opacity-25"></hr>
 
             <ul className='d-flex justify-content-center align-items-center mt-5'>
                 <li className='termAndCondi' > <Link style={{color: "#4e4250"}} to="/"> All Rights Reserved | </Link></li>
                 <li className='termAndCondi'> <Link className='text-primary' to="/TermCondition"> Terms and Conditions |</Link></li>
                 <li className='termAndCondi'> <Link className='text-primary' to="/">Privacy Policy |</Link></li>
-                <li className='termAndCondi'> <Link className='text-primary' to="/"> FAQ |</Link></li>
+                <li className='termAndCondi'> <Link className='text-primary' to="/"> FAQ |</Link></li> */}
                 {/* <li>By email: contact@yourwebsite.com</li>
                 <li>By visiting this page on our website: <a href="https://www.yourwebsite.com/contact">https://www.yourwebsite.com/contact</a></li>
                 <li>By phone number: (123) 456-7890</li> */}
-            </ul>
+            {/* </ul> */}
         </div>
+        <Footer/>
+        </>
     );
 }
 

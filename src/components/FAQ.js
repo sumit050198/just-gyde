@@ -13,11 +13,13 @@ const FAQ = () => {
                 <div class="accordion mb-5" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            {/* accordion-button collapsed:- write without collapsed than colume not auto select */}
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 How do I create an account?
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show my-2" data-bs-parent="#accordionExample">
+                        {/* accordion-collapse collapse show my-2:- write with code show than collaps div auto expand */}
+                        <div id="collapseOne" class="accordion-collapse collapse my-2" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>To create an account, click on the "Sign Up" button</strong>  on the top right corner of the page and follow the instructions <code>Just Gyde.</code>
                             </div>

@@ -1,8 +1,8 @@
-// src/Services.js
-
 import React from 'react';
 // import { Outlet, Link } from "react-router-dom";    
 import './Services.css';
+import OnlyNav from './OnlyNav';
+import Footer from './Footer';
 
 const Services = () => {
     const serviceList = [
@@ -29,6 +29,8 @@ const Services = () => {
     ];
 
     return (
+        <div className="">
+            <OnlyNav/>
         <div className="services-container">
             <h1>Our Services</h1>
             <div className="services-list">
@@ -40,6 +42,8 @@ const Services = () => {
                 ))}
             </div>
             {/* <Outlet /> */}
+        </div>
+        <Footer/>
         </div>
     );
 };
