@@ -7,12 +7,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TermCondition from './components/TermCondition';
 import Policy from './components/Policy';
 import FAQ from './components/FAQ';
+import OurMission from './components/OurMission';
+import OnlyNav from './components/OnlyNav';
 // import { Link } from 'react-router-dom';
 
 const MainCom = () => {
   return (
     <div className="App">
       <Navbar />
+      <OnlyNav/>
       <Template />
       <Footer />
     </div>
@@ -28,10 +31,9 @@ function App() {
         <Route path="/TermCondition" element={<TermCondition/>}/>
         <Route path="/Policy" element={<Policy/>}/>
         <Route path="/FAQ" element={<FAQ/>}/>
-        {/* <Route path="P" element={<Blogs />} /> */}
+        <Route path="/OurMission" element={<OurMission/>}/>
         {/* <Route index element={<Home />} />
         <Route path="contact" element={<Contact />} />y
-        <Route path="*" element={<NoPage />} /> */}
         {/* </Route> */}
       </Routes>
     </BrowserRouter>

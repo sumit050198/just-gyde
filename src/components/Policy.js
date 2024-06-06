@@ -4,7 +4,7 @@ import React from 'react'
 const Policy = () => {
   return (
             <div className="privacy-policy container">
-                <h1>Privacy Policy</h1>
+                <h1 className='my-5'>Privacy Policy</h1>
                 {/* <p>Last Updated: June 5, 2024</p> */}
                 
                 <h2>1. Introduction</h2>

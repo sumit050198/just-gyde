@@ -55,6 +55,9 @@
 .Support {
  
 }
+.text:hover{
+  color: #6292df;
+}
 .ContactsUs {
  
 }
@@ -70,6 +73,9 @@ a {
 }
 .horizantalLine {
   /* margin-bottom: 50px; */
+}
+.copyrights{
+  cursor: auto;
 }
 .termAndCondi{
   /* display: flex;
