@@ -1,11 +1,4 @@
-/* .lArrow {
-    width: 51px;
-    height: 51px;
-    display: flex;
-    margin-top: 50px;
-  
-  } */
-.footer {
+/* .footer {
   width: 100%;
   height: auto;
   background-color: #4e4250;
@@ -44,22 +37,12 @@
   gap: 25px;
   object-fit: contain;
 }
-
-.Company {
-
-}
 .h5Tag {
   font-weight: 520;
 
 }
-.Support {
- 
-}
 .text:hover{
   color: #6292df;
-}
-.ContactsUs {
- 
 }
 .navbarLink {
   text-decoration: none;
@@ -71,15 +54,157 @@ a {
   color: white;
   list-style-type: none;
 }
-.horizantalLine {
-  /* margin-bottom: 50px; */
-}
 .copyrights{
   cursor: auto;
 }
 .termAndCondi{
-  /* display: flex;
-  flex-direction: row; */
+
     margin-bottom: 20px;
 
+} */
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #4e4250;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 15px;
+}
+
+.col-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 59px;
+  margin-bottom: 10px;
+}
+
+.parrafooter {
+  font-size: 15.5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 16px;
+  height: 18px;
+  margin: 0 8px;
+  object-fit: contain;
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Support,
+.ContactsUs {
+  margin-bottom: 20px;
+}
+
+.h5Tag {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.text:hover {
+  color: #6292df;
+}
+
+.navbarLink {
+  list-style-type: none;
+  padding: 0;
+}
+
+li,
+a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+
+.copyrights {
+  cursor: auto;
+  margin: 0 5px;
+}
+
+.termAndCondi {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.horizantalLine {
+  border-color: rgba(255, 255, 255, 0.5);
+  margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .footerContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .col-12 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footerLogo {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .parrafooter {
+    text-align: center;
+  }
+
+  .footerNav {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .Support,
+  .ContactsUs {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+  .navbarLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .horizantalLine {
+    margin: 40px 0;
+  }
 }

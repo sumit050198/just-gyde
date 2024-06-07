@@ -2,51 +2,12 @@ import React, { useState } from 'react'
 import { Rating } from 'react-simple-star-rating'
 import './Template.css';
 
-// export function MyComponent() {
-//     const [rating, setRating] = useState(0)
-//     const [lavel, setLavel] = useState(0)
-
-//     // Catch Rating value
-//     const handleRating = (rate: number) => {
-//         setRating(rate)
-
-//         // other logic
-//     }
-//     // Optinal callback functions
-//     const onPointerEnter = () => {
-//         setLavel(5)
-//     }
-
-
-//     const onPointerLeave = () => { }
-//     const onPointerMove = (value: number, index: number) => console.log(value, index)
-
-//     return (
-//         <div className='ClintReviews'>
-//             <Rating
-//                 onClick={handleRating}
-//                 onPointerEnter={onPointerEnter}
-//                 onPointerLeave={onPointerLeave}
-//                 onPointerMove={onPointerMove}
-//             />
-//             <p className="rating">{rating}/{lavel}</p>
-//         </div>
-//     )
-// }
-
-
-
 const About = () => {
     return (
         <div className="head1">
             <h1 className='h1tag m-0'>About Us</h1>
             <div className="">
                 <img className='Rectangle1' src="./image/sumit1.jpg" alt="" />
-                {/* <p className='container parra1'>
-                    Welcome to Just Gyde, your all-in-one platform for essential services in healthcare, education, finance, and entertainment. Our mission is to empower communities by making these services easily accessible and user-friendly.
-                    Who We Are Just Gyde is dedicated to improving lives by bridging gaps in essential services. Our passionate team works tirelessly to bring you innovative solutions that simplify everyday life.
-                    Our Vision We strive for a world where everyone has equal access to vital services, leading to healthier, more educated, financially stable, and enjoyable lives.
-                </p> */}
             </div>
         </div>
     )
@@ -82,14 +43,12 @@ const ClintReviews = () => {
                         <div className="reviews">
                             <img className="review" src="./image/reviews.png" alt="" />
                             <p className="rating">4/5</p>
-                            {/* <MyComponent /> */}
 
                         </div>
                     </div>
                     <div className="clintReviews1">
                         <h3 className='cr1'>Medical Service</h3>
                         <div className="d-flex justify-content-start">
-                            {/* <img className='lArrow' src="./image/lArrow.png" alt="" /> */}
                             <p className='dr1'> Just Gyde offers a robust range of medical services designed to cater to urgent and everyday health needs. We provide fast and reliable ambulance services, ensuring immediate assistance in emergencies. Our blood bank services make it easy to find and donate blood, helping to save lives. </p>
                         </div>
                     </div>
@@ -107,7 +66,6 @@ const ClintReviews = () => {
                             <p><img className='location' src="./image/location.png" alt="" /> Gurgaon</p>
                         </div>
                         <div className="reviews">
-                            {/* <MyComponent /> */}
                             <img className="review" src="./image/reviews.png" alt="" />
                             <p className="rating">4/5</p>
                         </div>
@@ -115,7 +73,6 @@ const ClintReviews = () => {
                     <div className="clintReviews1">
                         <h3 className='cr1'>Financial Service</h3>
                         <div className="d-flex justify-content-start m-0 p-0">
-                            {/* <img className='lArrow' src="./image/rArrow.png" alt="" /> */}
                             <p className='dr1'>Just Gyde is committed to helping individuals achieve their financial goals through comprehensive support and resources. We offer job placement services to connect the unemployed with meaningful employment opportunities. Our platform provides tools and advice for financial planning.</p>
                         </div>
                     </div>
