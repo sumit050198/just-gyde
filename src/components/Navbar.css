@@ -306,6 +306,7 @@ body {
   }
 
   .header {
+    width: 100%;
     height: auto;
     border-bottom-right-radius: 0;
   }
@@ -341,6 +342,11 @@ body {
 
 /* Responsive design for mobile devices */
 @media (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: auto;
+    border-bottom-right-radius: 0;
+  }
   .navbar {
     /* flex-direction: column; */
     padding: 1rem;
@@ -367,6 +373,11 @@ body {
 }
 
 @media (max-width: 480px) {
+  .header {
+    width: 100%;
+    height: auto;
+    border-bottom-right-radius: 0;
+  }
   .navbar-logo img {
     width: 60%;
   }
