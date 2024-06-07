@@ -40,8 +40,8 @@ const About = () => {
     return (
         <div className="head1">
             <h1 className='h1tag m-0'>About Us</h1>
-            <div className="">
-                <img className='Rectangle1' src="./image/Rectangle 1.png" alt="" />
+            <div className="container">
+                <img className='Rectangle1' src="./image/sumit.jpg" alt="" />
                 <p className='container parra1'>
                     {/* Welcome to Just Gyde, your all-in-one platform for essential services in healthcare, education, finance, and entertainment. Our mission is to empower communities by making these services easily accessible and user-friendly.
                     Who We Are Just Gyde is dedicated to improving lives by bridging gaps in essential services. Our passionate team works tirelessly to bring you innovative solutions that simplify everyday life.
