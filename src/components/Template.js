@@ -73,10 +73,11 @@ const ClintReviews = () => {
 
             <div className="card">
                 <div className="row">
-                    <div className="clintReviews"><img src="./image/vinay.png" alt="" />
+                    <div className="clintReviews">
+                        <img className='client rounded-circle' src="./image/client1.jpg" alt="" />
                         <div className="nameLocation">
-                            <h3>Vinay</h3>
-                            <p><img className='location' src="./image/location.png" alt="" /> Delhi</p>
+                            <h3>Ankur</h3>
+                            <p><img className='location' src="./image/location.png" alt="" /> Gurgaon</p>
                         </div>
                         <div className="reviews">
                             <img className="review" src="./image/reviews.png" alt="" />
@@ -99,10 +100,11 @@ const ClintReviews = () => {
 
             <div className="card">
                 <div className="row">
-                    <div className="clintReviews"><img src="./image/vinay.png" alt="" />
+                    <div className="clintReviews">
+                        <img className='client rounded-circle' src="./image/client.jpg" alt="" />
                         <div className="nameLocation">
-                            <h3>Vinay</h3>
-                            <p><img className='location' src="./image/location.png" alt="" /> Delhi</p>
+                            <h3>Sumit</h3>
+                            <p><img className='location' src="./image/location.png" alt="" /> Gurgaon</p>
                         </div>
                         <div className="reviews">
                             {/* <MyComponent /> */}
@@ -114,7 +116,7 @@ const ClintReviews = () => {
                         <h3 className='cr1'>Financial Service</h3>
                         <div className="d-flex justify-content-start m-0 p-0">
                             {/* <img className='lArrow' src="./image/rArrow.png" alt="" /> */}
-                            <p className='dr1'>Just Gyde is committed to helping individuals achieve their financial goals through comprehensive support and resources. We offer job placement services to connect the unemployed with meaningful employment opportunities. Our platform provides tools and advice for financial planning and goal setting.</p>
+                            <p className='dr1'>Just Gyde is committed to helping individuals achieve their financial goals through comprehensive support and resources. We offer job placement services to connect the unemployed with meaningful employment opportunities. Our platform provides tools and advice for financial planning.</p>
                         </div>
                     </div>
                 </div>
