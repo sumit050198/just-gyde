@@ -80,11 +80,11 @@ const Footer = () => {
                                 <li className='termAndCondi'> <Link className='text' to="/FAQ"> FAQ</Link></li>
                             </ul>
                         </div>
-                        <div className="ContactsUs col-12 col-md-4 d-flex flex-column justify-content-center align-items-center md-5">
+                        <div className="ContactsUs col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center md-5">
                             <h5 className='h5Tag my-4'>Contacts us</h5>
-                            <ul className="navbarLink d-flex flex-column justify-content-center align-items-center ">
+                            <ul className="navbarLink d-flex flex-column justify-content-center align-items-center">
                                 <li className=''> <img className='icon' src="./image/Email.png" alt="Email" /> contact@Justgyde.com </li>
-                                <li className='my-2'> <img className='icon mx-' src="./image/Mark.png" alt="Address" />Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram, Haryana, 122002</li>
+                                <li className='my-2 d-flex text-center'> <img className='icon mx-' src="./image/Mark.png" alt="Address" />Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram, Haryana, 122002</li>
                             </ul>
                         </div>
                     </div>
