@@ -165,6 +165,17 @@ const Template = () => {
                     <img className='educationImg' src="./image/medical.png" alt="" />
                 </div>
             </div>
+
+            <div className="container head2">
+                <div className="ourServicesimg">
+                    <img className='educationImg' src="./image/ecommerce.png" alt="" />
+                    <div className="ourServices">
+                        <h3 className='serviceHeading'>E-Commerce Service</h3>
+                        <p className='parraEducational'>Just Gyde is a versatile platform that caters to a wide range of services, including a robust E-commerce service dedicated to the sale of Fast-Moving Consumer Goods (FMCG). Our E-commerce service is designed to provide customers with a seamless and convenient shopping experience, offering a diverse array of high-quality FMCG products at competitive prices.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div className=" head6">
                 <h1 className='h1tag'>Reviews</h1>
             </div>
