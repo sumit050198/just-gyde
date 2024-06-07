@@ -40,13 +40,13 @@ const About = () => {
     return (
         <div className="head1">
             <h1 className='h1tag m-0'>About Us</h1>
-            <div className="container">
+            <div className="">
                 <img className='Rectangle1' src="./image/sumit1.jpg" alt="" />
-                <p className='container parra1'>
-                    {/* Welcome to Just Gyde, your all-in-one platform for essential services in healthcare, education, finance, and entertainment. Our mission is to empower communities by making these services easily accessible and user-friendly.
+                {/* <p className='container parra1'>
+                    Welcome to Just Gyde, your all-in-one platform for essential services in healthcare, education, finance, and entertainment. Our mission is to empower communities by making these services easily accessible and user-friendly.
                     Who We Are Just Gyde is dedicated to improving lives by bridging gaps in essential services. Our passionate team works tirelessly to bring you innovative solutions that simplify everyday life.
-                    Our Vision We strive for a world where everyone has equal access to vital services, leading to healthier, more educated, financially stable, and enjoyable lives. */}
-                </p>
+                    Our Vision We strive for a world where everyone has equal access to vital services, leading to healthier, more educated, financially stable, and enjoyable lives.
+                </p> */}
             </div>
         </div>
     )
@@ -128,8 +128,9 @@ const ClintReviews = () => {
 
 const Template = () => {
     return (
-        <div className='container'>
+        <>
             <About />
+        <div className='container'>
             <Services />
             <div className="container head2">
                 <div className="ourServicesimg">
@@ -167,6 +168,7 @@ const Template = () => {
             </div>
             <ClintReviews />
         </div>
+        </>
     )
 }
 
