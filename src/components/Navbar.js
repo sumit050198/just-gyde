@@ -101,7 +101,7 @@ const Navbar = () => {
                             to outstanding customer service.</p>
                     </div>
                     <div className="hero-image"
-                        style={{ backgroundImage: `url(${'./image/imgback.png'})`, height: "512px", width: "530px", marginLeft: "8px" }}>
+                        style={{ backgroundImage: `url(${'./image/imgback.png'})`, height: "512px", width: "530px", marginLeft: "35px", marginTop: "60px" }}>
                         <img className='mobileimage my' style={{ height: "400px", width: "400px", margin: "55px 0 0 75px" }} src="./image/img1.svg" alt="Hero" />
                     </div>
                 </div>

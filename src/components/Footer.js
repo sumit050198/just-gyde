@@ -84,7 +84,7 @@ const Footer = () => {
                             <h5 className='h5Tag my-4'>Contacts us</h5>
                             <ul className="navbarLink d-flex flex-column justify-content-center align-items-center">
                                 <li className=''> <img className='icon' src="./image/Email.png" alt="Email" /> contact@Justgyde.com </li>
-                                <li className='my-2 d-flex text-center'> <img className='icon mx-' src="./image/Mark.png" alt="Address" />Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram, Haryana, 122002</li>
+                                <li className='Mark my-2 text-center'> <img className='icon' src="./image/Mark.png" alt="Address" />Forum DLF Cyber City, Phase III, DLF QE, Sector 24, Gurugram, Haryana, 122002</li>
                             </ul>
                         </div>
                     </div>

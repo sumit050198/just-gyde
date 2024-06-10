@@ -223,7 +223,9 @@ body {
   padding: 1rem 2rem;
   color: white;
 }
-
+.navbar-logo{
+  margin: 15px 0 0 12px;
+}
 .menu-icon {
   display: none;
   flex-direction: column;
@@ -253,7 +255,7 @@ body {
 .navbar-links {
   display: flex;
   list-style: none;
-  margin-top: 22px;
+  margin-top: 29px;
   transition: max-height 0.3s ease-in-out;
 }
 
