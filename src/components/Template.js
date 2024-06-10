@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Rating } from 'react-simple-star-rating'
+// import { Rating } from 'react-simple-star-rating'
 import './Template.css';
 
 const About = () => {
@@ -87,7 +87,7 @@ const ClintReviews = () => {
 
 const Template = () => {
     return (
-        <>
+        <div className="main">
             <About />
         <div className='container'>
             <Services />
@@ -138,7 +138,7 @@ const Template = () => {
             </div>
             <ClintReviews />
         </div>
-        </>
+        </div>
     )
 }
 

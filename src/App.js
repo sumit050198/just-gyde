@@ -16,11 +16,9 @@ const MainCom = () => {
   return (
     <div className="App">
       <Navbar />
-      {/* <div className="container"> */}
       <Template />
       <Footer />
     </div>
-    // </div>
   )
 }
 
