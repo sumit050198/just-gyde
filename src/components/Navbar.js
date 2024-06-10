@@ -71,7 +71,7 @@ const Navbar = () => {
     }
 
     return (            
-        <header className='header'>
+        <header className="container-fluid header">
             <nav className="container navbar">
                 <div className="navbar-logo">
                     <img className='logo' src="../image/logoJustGyde.png" alt="Logo" />

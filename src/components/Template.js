@@ -87,9 +87,9 @@ const ClintReviews = () => {
 
 const Template = () => {
     return (
-        <div className="main">
-            <About />
+        // <div className="main">
         <div className='container'>
+            <About />
             <Services />
             <div className="container head2">
                 <div className="ourServicesimg">
@@ -138,7 +138,7 @@ const Template = () => {
             </div>
             <ClintReviews />
         </div>
-        </div>
+        // </div>
     )
 }
 

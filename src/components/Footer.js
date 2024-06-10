@@ -57,7 +57,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="container-fluid footer">
             <div className="container footerContainer">
                 <div className="col-12 d-flex justify-content-center align-items-center">
                     <div className="footerLogo col-12 col-md-4 md-5 d-flex flex-column justify-content-center align-items-center">
