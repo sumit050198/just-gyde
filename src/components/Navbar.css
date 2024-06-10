@@ -378,6 +378,8 @@ body {
 @media (max-width: 480px) {
 
   .header {
+    margin: 0;
+    padding: 0;
     width: 104%;
     height: auto;
     border-bottom-right-radius: 0;
