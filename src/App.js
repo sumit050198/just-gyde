@@ -11,6 +11,7 @@ import OurMission from './components/OurMission';
 import OurVision from './components/OurVision';
 import OnlyNav from './components/OnlyNav';
 import Reviews from './Reviews';
+import Bootsnav from './components/Bootsnav';
 
 const MainCom = () => {
   return (
@@ -35,7 +36,7 @@ function App() {
         <Route path="/FAQ" element={<FAQ/>}/>
         <Route path="/OurVision" element={<OurVision/>}/>
         <Route path="/Reviews" element={<Reviews/>}/>
-        {/* <Route path="/ " element={<Reviews/>}/> */}
+        <Route path="/Bootsnav" element={<Bootsnav/>}/>
         {/* <Route index element={<Home />} />
         <Route path="contact" element={<Contact />} />y
         {/* </Route> */}

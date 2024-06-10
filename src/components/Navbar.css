@@ -225,8 +225,11 @@ body {
   color: white;
 }
 .navbar-logo{
-  margin: 15px 0 0 12px;
+  /* margin: 0px 0 0 2px; */
 }
+/* .logo{
+  margin-left: 39px;
+} */
 .menu-icon {
   display: none;
   flex-direction: column;
@@ -304,10 +307,12 @@ body {
 
 /* Responsive design for tablets and below */
 @media (max-width: 1200px) {
+  .navbar-logo{
+    margin: 0px 0 0 12px;
+  }
   .hero-image {
     display: none;
   }
-
   .header {
     /* width: 100%; */
     height: auto;

@@ -16,7 +16,7 @@ const OnlyNav = () => {
             <li> <Link to="/">About</Link></li>
             <li> <Link to="/Services">Service</Link></li>
             <li> <Link to="/Reviews">Reviews</Link></li>
-            <li> <Link to="/">Contact Us</Link></li>
+            <li> <Link to="/Bootsnav">Contact Us</Link></li>
             {/* <li> <Link to="/Services">All Services Page</Link></li> */}
         </ul>
     </nav>
