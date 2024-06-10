@@ -218,6 +218,7 @@ body {
   width: 90%;
 }
 
+
 .serviceHeading {
   font-size: 35px;
   font-weight: 700;
@@ -323,6 +324,7 @@ body {
 
   .serviceHeading {
       font-size: 30px;
+      /* display: flex; */
   }
 }
 
@@ -334,7 +336,22 @@ body {
   .Rectangle1 {
       height: 400px;
   }
-
+  #entertenment{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #medical{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+.ourServices{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .serviceHeading {
+      font-size: 30px;
+  }
   .ourServicesimg {
       flex-direction: column;
       height: auto;
@@ -357,11 +374,8 @@ body {
     gap: 15px;
 }
 .reviews {
-  /* width: 190px;
-  letter-spacing: 0.06em;
-  color: #4e4250;
-  display: flex;
-  flex-direction: column; */
+  
+  flex-direction: column;
   margin: 20px 0px 0 240px;
 }
 

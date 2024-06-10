@@ -224,12 +224,7 @@ body {
   padding: 1rem 2rem;
   color: white;
 }
-.navbar-logo{
-  /* margin: 0px 0 0 2px; */
-}
-/* .logo{
-  margin-left: 39px;
-} */
+
 .menu-icon {
   display: none;
   flex-direction: column;
@@ -260,9 +255,13 @@ body {
   display: flex;
   list-style: none;
   margin-top: 29px;
+ 
   transition: max-height 0.3s ease-in-out;
 }
 
+.nav-link{
+  letter-spacing: 0.09rem;
+}
 .navbar-links li {
   margin: 0 1rem;
   letter-spacing: 0.06em;

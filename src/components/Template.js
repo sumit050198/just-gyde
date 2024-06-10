@@ -20,7 +20,7 @@ const Services = () => {
             <div className="ourServicesimg">
                 <img className='educationImg' src="./image/panting.png" alt="" />
                 <div className="ourServices">
-                    <h3 className='serviceHeading'>Educational Service</h3>
+                    <h3 className='serviceHeading '>Educational Service</h3>
                     <p className='parraEducational'>At Just Gyde, we believe in the Right to Education for all, ensuring every student has access to quality education. We help students secure free education opportunities, breaking down financial barriers to learning. Our platform facilitates mediation between schools and colleges, helping students find the best academic institutions. We provide resources and support to navigate the education system effectively. Our services aim to create a more equitable education landscape. By connecting students with scholarships and financial aid, we empower them to reach their full potential. Just Gyde is dedicated to fostering educational growth and opportunities for all. Join us in making education accessible and achievable for every learner.
                     </p>
                 </div>
@@ -87,12 +87,12 @@ const ClintReviews = () => {
 
 const Template = () => {
     return (
-        // <div className="main">
-        <div className='container'>
+        <div className="main">
             <About />
+        <div className='container'>
             <Services />
             <div className="container head2">
-                <div className="ourServicesimg">
+                <div className="ourServicesimg" id='entertenment'>
                     <div className="ourServices">
                         <h3 className='serviceHeading'>Entertainment Service</h3>
                         <p className='parraEducational'>Just Gyde brings excitement to your life with a wide array of entertainment services. We have partnerships with multiple and other entities to offer exclusive deals and rewards. Our platform allows users to earn and redeem coins for various entertainment activities. Enjoy movies, events, and more with our seamless booking and reward system. We aim to make entertainment accessible and affordable for everyone. Our services include discounts on movie tickets, event passes, and more. Just Gyde enhances your leisure time by providing curated entertainment experiences. Dive into a world of fun and relaxation with Just Gyde, where entertainment meets convenience. </p>
@@ -113,7 +113,7 @@ const Template = () => {
             </div>
 
             <div className="container head2">
-                <div className="ourServicesimg">
+                <div className="ourServicesimg" id='medical'>
                     <div className="ourServices">
                         <h3 className='serviceHeading'>Medical Service</h3>
                         <p className='parraEducational'>Just Gyde offers a robust range of medical services designed to cater to urgent and everyday health needs. We provide fast and reliable ambulance services, ensuring immediate assistance in emergencies. Our blood bank services make it easy to find and donate blood, helping to save lives. Comprehensive laboratory services are available for accurate and timely medical testing. Soon, we'll be launching a doctor consultation service, bringing expert medical advice right to your doorstep. We are committed to improving community health with accessible and efficient medical solutions. Our platform ensures that all health services are just a click away. Trust Just Gyde for your complete medical care needs.
@@ -138,7 +138,7 @@ const Template = () => {
             </div>
             <ClintReviews />
         </div>
-        // </div>
+         </div>
     )
 }
 
