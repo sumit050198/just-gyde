@@ -520,15 +520,12 @@ body {
     margin: 20px 0px 0 100px;
   }
   }
-@media (max-width: 470px) {
-  .reviews {
-    width: 85px;
-    margin: 20px 0px 0 100px;
-  }
-  }
 @media (max-width: 390px) {
   .reviews {
     width: 85px;
-
+    margin: 10px 0px 0 40px;
   }
+  .nameLocation {
+    margin: 8px 0 0 17px;
+}
   }
