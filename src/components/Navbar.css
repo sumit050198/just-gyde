@@ -205,16 +205,14 @@ body {
 } */
 
 body {
-  /* width: 100%; */
-
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 .header {
-  background-color: #4e4250;
   width: 100%;
   height: 580px;
+  background-color: #4e4250;
   border-bottom-right-radius: 420px;
 }
 
@@ -347,7 +345,7 @@ body {
 /* Responsive design for mobile devices */
 @media (max-width: 768px) {
   .header {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     border-bottom-right-radius: 0;
   }
@@ -377,8 +375,9 @@ body {
 }
 
 @media (max-width: 480px) {
+
   .header {
-    width: 100%;
+    width: 103%;
     height: auto;
     border-bottom-right-radius: 0;
   }

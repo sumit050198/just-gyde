@@ -70,7 +70,7 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     }
 
-    return (
+    return (            
         <header className='header'>
             <nav className="container navbar">
                 <div className="navbar-logo">
