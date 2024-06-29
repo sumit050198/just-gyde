@@ -8,12 +8,6 @@ body {
   padding: 0px;
 }
 
-.container {
-  /* width: 100%; */
-  /* padding: 0 15px;
-  margin: 0 auto; */
-}
-
 .head1 {
   margin-top: 90px;
 }
@@ -61,7 +55,7 @@ body {
 .educationImg {
   object-fit: contain;
   width: 50%;
-  height: 420px;
+  height: 500px;
 }
 
 .ourServices {
@@ -74,20 +68,20 @@ body {
 
 
 .serviceHeading {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 35px;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.01em;
   text-align: left;
   color: #4e4250;
   margin-bottom: 25px;
 }
 
 .parraEducational {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   text-align: left;
 }
 
@@ -118,7 +112,7 @@ body {
 }
 
 .clintReviews {
-  margin: 27px 0 0 27px;
+  margin: 27px 0 0 0px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -177,9 +171,10 @@ body {
   }
 
   .serviceHeading {
-      font-size: 30px;
+      /* font-size: 30px; */
       /* display: flex; */
   }
+  
 }
 
 @media (max-width: 992px) {
@@ -204,7 +199,7 @@ body {
   align-items: center;
 }
   .serviceHeading {
-      font-size: 30px;
+      /* font-size: 30px; */
   }
   .ourServicesimg {
       flex-direction: column;
@@ -212,16 +207,16 @@ body {
   }
 
   .educationImg {
-      width: 80%;
+      width: 100%;
       height: auto;
   }
 
   .serviceHeading {
-      font-size: 28px;
+      /* font-size: 28px; */
   }
 
   .parraEducational {
-      font-size: 15px;
+      font-size: 17px;
   }
   .head7 {
     flex-direction: column;
@@ -269,11 +264,11 @@ body {
   }
 
   .serviceHeading {
-      font-size: 24px;
+      /* font-size: 24px; */
   }
 
   .parraEducational {
-      font-size: 14px;
+      font-size: 17px;
   }
   
   .head7 {
@@ -325,11 +320,11 @@ body {
   }
 
   .serviceHeading {
-      font-size: 20px;
+      font-size: 35px;
   }
 
   .parraEducational {
-      font-size: 12px;
+      font-size: 17px;
   }
     .reviews {
     width: 100px;

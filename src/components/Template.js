@@ -35,7 +35,7 @@ const ClintReviews = () => {
             <div className="card">
                 <div className="row">
                     <div className="clintReviews">
-                        <img className='client rounded-circle' src="./image/client1.jpg" alt="" />
+                        <img className='client rounded-circle mx-3' src="./image/client1.jpg" alt="" />
                         <div className="nameLocation">
                             <h3>Ankur</h3>
                             <p><img className='location' src="./image/location.png" alt="" /> Gurgaon</p>
@@ -60,7 +60,7 @@ const ClintReviews = () => {
             <div className="card">
                 <div className="row">
                     <div className="clintReviews">
-                        <img className='client rounded-circle' src="./image/client.jpg" alt="" />
+                        <img className='client rounded-circle mx-3' src="./image/client.jpg" alt="" />
                         <div className="nameLocation">
                             <h3>Sumit</h3>
                             <p><img className='location' src="./image/location.png" alt="" /> Gurgaon</p>
